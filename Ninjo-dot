@@ -1,0 +1,13 @@
+node-{
+  stage["SCM Checkout"]{
+  git "https://github.com/javahometec/my-app"
+  }
+  stage["Compile-Package"]{
+   sh "mvn package"
+   }
+   
+]
+   
+   
+   
+   
