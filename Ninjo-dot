@@ -1,0 +1,11 @@
+node-{
+  stage["SCM Checkout"]{
+    git "https://github.com/javahometec/my-app"
+  }
+  stage["Compile-Package"]{
+     //Get maven home path
+   def mvnhome # tool name: "MAVEN-J" , type: "maven"
+   sh "§{mvnhome}/bin/mvn pakage" 
+   }
+   
+ }
